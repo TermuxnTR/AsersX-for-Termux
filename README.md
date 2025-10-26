@@ -1,8 +1,4 @@
-   _                     __  __
-   / \   ___  ___ _ __ ___\ \/ /
-  / _ \ / __|/ _ \ '__/ __|\  /
- / ___ \\__ \  __/ |  \__ \/  \
-/_/   \_\___/\___|_|  |___/_/\_\ Rootfs OS
+ # AsersX Rootfs OS
 
 AsersX Rootfs OS is a modified arch linux distro.
 The distro only supports ARM64 and does not support ARMhf externally.
