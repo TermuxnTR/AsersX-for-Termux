@@ -2,7 +2,7 @@ pkg update -y && pkg upgrade -y
 pkg install wget git proot-distro pulseaudio x11-repo -y
 wget -P /sdcard https://github.com/termux/termux-x11/releases/download/nightly/app-universal-debug.apk
 cp pdlogin pdloginx $PREFIX/bin
-chmod +x pdlogin pdloginx
+chmod +x $PREFIX/bin/pdlogin $PREFIX/bin/pdloginx
 cp asersx.sh $PREFIX/etc/proot-distro
 pd list
 sleep 5
